@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847594938127",
+    "project_id": "copdiary-9d75b",
+    "storage_bucket": "copdiary-9d75b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847594938127:android:fc3f2da64f9b306e9c287a",
+        "android_client_info": {
+          "package_name": "com.diary.copdiary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIVsZTmOMAzLC58spP5cQqFchIM3Eb3Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
