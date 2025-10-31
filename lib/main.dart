@@ -1,7 +1,7 @@
-import 'package:copdiary/login_page.dart';
+
 import 'package:flutter/material.dart';
 import 'core/di/injection.dart';
-import 'core/theme/app_theme.dart';
+
 
 void main() async {
   // Ensure Flutter bindings are initialized
@@ -22,7 +22,12 @@ class MyApp extends StatelessWidget {
       title: 'Copdiary',
       debugShowCheckedModeBanner: false,
       // Set the new LoginPage as the home screen
-      home: const LoginPage(),
+     home: Scaffold(
+  appBar: AppBar(title: const Text('CopDiary App')),
+  body: const Center(
+    child: Text('App Loaded Successfully!'),
+  ),
+),
     );
   }
 }
