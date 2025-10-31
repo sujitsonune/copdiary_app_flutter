@@ -69,7 +69,7 @@ class AppTheme {
         ),
         titleTextStyle: TextStyle(
           color: Colors.white,
-          fontSize: 20,
+          fontSize: 20 ,
           fontWeight: FontWeight.w600,
         ),
         iconTheme: IconThemeData(
@@ -79,7 +79,7 @@ class AppTheme {
       ),
 
       // Card Theme
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: cardColor,
         elevation: 2,
         shadowColor: Colors.black26,
@@ -238,7 +238,7 @@ class AppTheme {
       ),
 
       // Dialog Theme
-      dialogTheme: DialogTheme(
+      dialogTheme: DialogThemeData(
         backgroundColor: surfaceColor,
         elevation: 8,
         shape: RoundedRectangleBorder(

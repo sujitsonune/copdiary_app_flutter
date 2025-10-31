@@ -104,10 +104,10 @@ flutter:
   uses-material-design: true
 
   # Assets
-  assets:
-    - assets/images/
-    - assets/icons/
-    - assets/animations/
+  #assets:
+   # - assets/images/
+    #- assets/icons/
+    #- assets/animations/
 
   # Fonts (for Marathi and English support)
   # Note: Download Noto Sans fonts from Google Fonts and place them in assets/fonts/
